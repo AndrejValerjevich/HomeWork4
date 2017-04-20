@@ -1,0 +1,329 @@
+body {
+    font-family: sans-serif;
+    min-height: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    outline: none;
+    zoom: 90%;
+}
+
+.bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+}
+
+/*------Хедер-------*/
+.navigation {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.navigation__ul {
+    display: block;
+    height: inherit;
+    width: 960px;
+    margin: auto;
+    padding: 0;
+}
+
+.navigation__ul__item {
+    float: left;
+    display: block;
+    height: inherit;
+    padding: 0 10px 0 10px;
+}
+.navigation__ul__item-last {
+    float: right;
+    font-weight: 500;
+    font-family: Corbel, sans-serif;
+    color: white;
+    line-height: 100px;
+    font-size: 2.2em;
+    margin: auto;
+    display: block;
+    height: inherit;
+    padding: 0 10px 0 10px;
+}
+
+.navigation__ul__item__logo {
+    width: 100px;
+    height: 100px;
+}
+
+.navigation__ul__item__link {
+     font-weight: 500;
+     font-family: Corbel, sans-serif;
+     color: white;
+     text-decoration: none;
+     line-height: 100px;
+     font-size: 2.2em;
+     margin: 30% 0 30% 40px;
+ }
+
+.navigation__ul__item__link__city {
+    font-weight: 800;
+    font-family: Corbel, sans-serif;
+    color: indianred;
+    text-decoration: none;
+    line-height: inherit;
+    font-size: inherit;
+    margin: 30% 0 30% 20px;
+}
+
+.navigation__ul__item__link:hover {
+    color: #3fb4ae;
+}
+.navigation__ul__item__link__city:hover {
+    color: white;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*------Контент страницы main-------*/
+.main-container {
+    height: 100%;
+    display: block;
+    width: 960px;
+    margin: auto;
+}
+
+.main-container__h1 {
+    font-size: 8em;
+    font-weight: 500;
+    font-family: Corbel, sans-serif;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.main-container__h2 {
+    font-size: 2em;
+    font-weight: 500;
+    font-family: Corbel, sans-serif;
+    color: #3fb4ae;
+    text-align: center;
+}
+
+.main-container-p__button {
+    margin: 0;
+    text-align: center;
+    height: 140px;
+}
+
+.main-container__button {
+    margin: 40px;
+    height: 60px;
+    width: 200px;
+    outline: none;
+    background-color: transparent;
+    border: solid white 5px;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    cursor: pointer;
+/*Текст*/
+    font-weight: 500;
+    font-family: Corbel, sans-serif;
+    color: white;
+    font-size: 1.5em;
+}
+
+.main-container__button:hover {
+    width: 300px;
+    border: solid #3fb4ae 5px;
+    cursor: pointer;
+    /*Текст*/
+    color: #3fb4ae;
+}
+
+.main-container-fieldset-main {
+    margin: 10px auto;
+    width: 70%;
+    height: 100%;
+    border: 0px;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+
+.main-container-fieldset-algorithm {
+    margin: 10px auto;
+    width: 70%;
+    border: solid #3fb4ae 3px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.answer-text-color {
+    color: #3fb4ae;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.inputNumber-form {
+    border: 3px solid #3fb4ae;
+    border-radius: 15px;
+    width: 400px;
+    height: 30px;
+    font-family: "Courier New";
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.fieldset-image {
+    text-align: center;
+    margin: 0px;
+}
+
+/*------Контент страницы weather-------*/
+.main-container {
+    height: 100%;
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+/*------Search-area-------*/
+.weather-container__search-area {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(240, 248, 255, 0.25);
+    margin: auto;
+}
+.weather-container__search-area__search {
+    vertical-align: middle;
+    display: block;
+    margin: auto;
+    width: 960px;
+    height: inherit;
+}
+.weather-container__search-area__search__form {
+    vertical-align: middle;
+    display: block;
+    margin: 0;
+    text-align: center;
+    height: auto;
+}
+.weather-container__search-area__search__form__text {
+    display: inline-block;
+    font: 1.8em Corbel, sans-serif;
+    width: 400px;
+    border: solid #3fb4ae 3px;
+    border-radius: 3px;
+}
+.weather-container__search-area__search__form__button {
+    display: inline-block;
+    font: 1.8em Corbel, sans-serif;
+    width: 200px;
+    outline: none;
+    background-color: transparent;
+    border: solid #3fb4ae 3px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 75px;
+    /*Текст*/
+    font-weight: 500;
+    color: white;
+}
+.weather-container__search-area__search__form__button:hover {
+    cursor: pointer;
+    /*Текст*/
+    font-weight: 800;
+    color: #3fb4ae;
+}
+
+/*------Content-area-------*/
+.weather-container__content-area {
+    margin: 20px auto;
+    width: 960px;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.25);
+}
+.weather-container__content-area__header {
+    font: 3em Corbel, sans-serif;
+    font-weight: 500;
+    color: white;
+    margin: 15px 0;
+}
+.weather-container__content-area__content {
+    border: solid white 3px;
+    padding: 20px;
+    display: block;
+}
+.weather-container__content-area__content-left {
+    float: left;
+    padding: 20px;
+    display: block;
+    width: 55%;
+}
+.weather-container__content-area__content-right {
+    width: 35%;
+    float: right;
+    padding: 20px;
+    display: block;
+}
+.weather-container__content-area__text-h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    font: 3.4em Corbel, sans-serif;
+    font-weight: 800;
+    color: indianred;
+}
+.weather-container__content-area__text {
+    font: 6em Corbel, sans-serif;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.weather-container__content-area__text-empty {
+    font: 2em Corbel, sans-serif;
+    margin: 10px 0 20px 0;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.weather-container__content-area__image {
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+
+/*---------Таблица данных---------*/
+.weather-container__content-area__content-left__table {
+    border: solid white 3px;
+    border-collapse: collapse;
+}
+.weather-container__content-area__content-left__table-row {
+    font: 1.5em Corbel, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.weather-container__content-area__content-left__table-cell {
+    font: 1.5em Corbel, sans-serif;
+    font-weight: 500;
+    color: white;
+    border: solid white 3px;
+    padding: 6px;
+}
+.weather-container__content-area__content-left__table-firstcell {
+    width: 270px;
+    font: 1.5em Corbel, sans-serif;
+    font-weight: 500;
+    color: white;
+    border: solid white 3px;
+    padding: 6px;
+}
+
+
