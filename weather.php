@@ -54,6 +54,7 @@ function get_sunrise_date($sunrise)
     <meta charset="UTF-8">
     <meta http-equiv="Cache-Control" content="no-cache">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Погода: <?= $city?></title>
 </head>
 <body>
