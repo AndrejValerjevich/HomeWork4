@@ -1,0 +1,46 @@
+[{
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "address": "г.Москва, ул. Алиева,2",
+  "phoneNumber": "812 123-1234"
+}, {
+  "firstName": "Сергей",
+  "lastName": "Георгиев",
+  "address": "г.Ростов-на-Дону, ул. Ленина,52",
+  "phoneNumber": "945 234-0932"
+}, {
+  "firstName": "Дмитрий",
+  "lastName": "Чернигов",
+  "address": "г.Пермь, ул. Островского,64",
+  "phoneNumber": "812 425-9957"
+}, {
+  "firstName": "Анатолий",
+  "lastName": "Рочев",
+  "address": "г.Хабаровск, ул. Крестова,41",
+  "phoneNumber": "812 123-4545"
+}, {
+  "firstName": "Анна",
+  "lastName": "Рогалева",
+  "address": "г.Рига, ул. Чешская,8",
+  "phoneNumber": "812 183-1423"
+}, {
+  "firstName": "Дмитрий",
+  "lastName": "Стародубцев",
+  "address": "г.Самара, ул. Жукова,154",
+  "phoneNumber": "812 678-5534"
+}, {
+  "firstName": "Лариса",
+  "lastName": "Коскова",
+  "address": "г.Брянск, ул. Крисанова,39",
+  "phoneNumber": "812 245-8721"
+}, {
+  "firstName": "Мария",
+  "lastName": "Ачинцева",
+  "address": "г.Пермь, ул. Пушкина,85",
+  "phoneNumber": "812 863-8583"
+}, {
+  "firstName": "Степан",
+  "lastName": "Соколов",
+  "address": "г.Тула, ул. Дымова,7",
+  "phoneNumber": "812 875-1234"
+}]
