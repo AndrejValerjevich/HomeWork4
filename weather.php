@@ -20,12 +20,26 @@ if (!empty($_POST['city']))
         $sunset = $response['sys']['sunset'];
 
         #region//Перевод погоды на русский
-        if ($sky == 'Clear') $rus_weather = 'Ясно';
-        elseif ($sky == 'Clouds') $rus_weather = 'Облачно';
-        elseif ($sky == 'Rain') $rus_weather = 'Дождь';
-        elseif ($sky == 'Mist') $rus_weather = 'Туман';
-        elseif ($sky == 'Snow') $rus_weather = 'Снег';
-        elseif ($sky == 'Drizzle') $rus_weather = 'Переменная облачность;';
+        switch ($sky) {
+            case 'Clear':
+                $rus_weather = 'Ясно';
+                break;
+            case 'Clouds':
+                $rus_weather = 'Облачно';
+                break;
+            case 'Rain':
+                $rus_weather = 'Дождь';
+                break;
+            case 'Mist':
+                $rus_weather = 'Туман';
+                break;
+            case 'Snow':
+                $rus_weather = 'Снег';
+                break;
+            case 'Drizzle':
+                $rus_weather = 'Переменная облачность';
+                break;
+        }
         #endregion
     }
     else {
